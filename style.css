@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+/* navbar stylings */
+ nav .nav-link {
+    font-size: 1.1rem;
+    color: #333 !important;
+}
+
+@media screen and (max-width: 768px) {
+     nav {
+        position: unset !important;
+        background-color: white !important;
+    }
+
+    .navbar-toggler {
+        background: #ff5a5f;
+        transition: .3s ease-in;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+    }
+
+    .hero_text h1 {
+        font-size: 2rem;
+    }
+
+    .hero_text p {
+        font-size: .7rem;
+    }
+
+    .hero_text .col-md-6 {
+        display: block !important;
+    }
+
+    .hero .col-md-6:last-child {
+        margin-top: 50px;
+    }
+
+    .hero {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+     nav {
+        position: unset !important;
+        background-color: white !important;
+    }
+
+    .navbar-toggler {
+        background: #ff5a5f;
+        transition: .3s ease-in;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+    }
+
+    .hero_text h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero_text .col-md-6 {
+        display: block !important;
+    }
+
+    .hero .col-md-6:last-child {
+        margin-top: 50px;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+     nav {
+        position: unset !important;
+        background-color: white !important;
+    }
+
+    .navbar-toggler {
+        background: #ff5a5f;
+        transition: .3s ease-in;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+    }
+
+    .hero_text h1 {
+        font-size: 2rem !important;
+    }
+
+    .hero_text .col-md-6 {
+        display: block !important;
+    }
+
+    .hero .col-md-6:last-child {
+        margin-top: 50px;
+    }
+
+    .hero {
+        height: 100vh !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+     nav {
+        position: unset !important;
+        background-color: white !important;
+    }
+
+    .navbar-toggler {
+        background: #ff5a5f;
+        transition: .3s ease-in;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+    }
+
+    .hero_text h1 {
+        font-size: 2.3rem !important;
+    }
+
+    .hero_text .col-md-6 {
+        display: block !important;
+    }
+
+    .hero .col-md-6:last-child {
+        margin-top: 50px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+}
+
+ nav .navbar-brand {
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    color: #999999 !important;
+}
+
+ nav .navbar-brand span {
+    color: #ff5a5f !important;
+}
+
+nav {
+    z-index: 2 !important;
+}
+
+ nav .nav-link:hover::before {
+    width: 100%;
+}
+
+ nav .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.dropdown-menu {
+    border-radius: 15px;
+}
+
+.dropdown-item {
+    transition: .2s ease-in;
+}
+
+.dropdown-item:hover {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.btn.btn-outline-danger {
+    background-color: transparent !important;
+    color: #ff5a5f;
+    border-color: #ff5a5f !important;
+    transition: .3s ease-in;
+}
+
+.btn.btn-outline-danger:hover {
+    background-color: #ff5a5f !important;
+    color: white;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+}
+
+.btn.btn-danger {
+    background-color: #ff5a5f !important;
+    border-color: #ff5a5f !important;
+    transition: .3s ease-in;
+}
+
+.btn.btn-danger:hover {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ff5a5f;
+}
+
+/* hero  */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero_text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* intro */
+.intro {
+    padding: 5rem;
+}
