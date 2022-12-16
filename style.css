@@ -8,6 +8,10 @@ body {
     font-family: 'Rubik', sans-serif !important;
 }
 
+.text-danger {
+    color: #ff5a5f !important;
+}
+
 /* navbar stylings */
  nav .nav-link {
     font-size: 1.1rem;
@@ -225,5 +229,27 @@ nav {
 
 /* intro */
 .intro {
-    padding: 5rem;
+    padding: 5rem 0px;
+}
+
+.intro .post_box {
+    height: 500px;
+    background: url('Assets/images/mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro .post_text {
+    position: absolute;
+    bottom: 0%;
+}
+
+.bg-danger {
+    background-color: #ff5a5f !important;
+}
+
+.badge {
+    font-size: .9rem;
+    font-weight: 500;
 }
